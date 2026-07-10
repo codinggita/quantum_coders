@@ -1,0 +1,17 @@
+.pp-dashboard-layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: var(--quantum-dark-gradient);
+  overflow: hidden;
+}
+
+.pp-dashboard-main {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+  background: var(--quantum-charcoal);
+  display: flex;
+  flex-direction: column;
+}
